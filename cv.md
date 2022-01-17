@@ -26,9 +26,9 @@ function multiply(a, b) {
 }
 ```
 ## Experience
-[pisicot.github.io/dbu/] I have used Pug, SCSS, Jqerry, JS, Gulp
+[https://pisicot.github.io/dbu/] I have used Pug, SCSS, Jqerry, JS, Gulp
 ## Education
-To receive courses, I used the [BeOnMax.com]. Google has been my main source of information. I really liked the site [learn.javascipt.ru]
+To receive courses, I used the [https://BeOnMax.com]. Google has been my main source of information. I really liked the site [https://learn.javascipt.ru]
 ## English
 B1 level
 
