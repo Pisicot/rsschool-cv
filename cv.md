@@ -28,7 +28,7 @@ function multiply(a, b) {
 ## Experience
 [https://pisicot.github.io/dbu/] I have used Pug, SCSS, Jqerry, JS, Gulp
 ## Education
-To receive courses, I used the [https://BeOnMax.com]. Google has been my main source of information. I really liked the site [https://learn.javascipt.ru]
+To receive courses, I used the [https://BeOnMax.com]. Google has been my main source of information. I really liked the site [https://learn.javascript.ru]
 ## English
 B1 level
 
