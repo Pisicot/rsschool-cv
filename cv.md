@@ -7,7 +7,7 @@
 --------------------
 ## About Me
 
-![](//../rs-school/1.jpg)
+![](//rsschool-cv/1.jpg)
 
 I want to become a good in demand Front-end developer and change my current job.
 
