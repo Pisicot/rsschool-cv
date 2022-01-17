@@ -7,7 +7,7 @@
 --------------------
 ## About Me
 
-![](file:///C:/Users/Pisicot/Desktop/1.jpg)
+![](C:/Users/Pisicot/Desktop/1.jpg)
 
 I want to become a good in demand Front-end developer and change my current job.
 
