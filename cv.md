@@ -44,7 +44,7 @@ alert(result);
 ***
 ## Education
 
-University: Feodosia Polytechnic College, programmer
+**University**: Feodosia Polytechnic College, programmer
 ***
 ## Courses:
 
