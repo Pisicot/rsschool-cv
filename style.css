@@ -1,0 +1,186 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a[class] {
+    transition: all .3s;
+}
+a[class]:hover {
+    color: #b9b4b4;
+}
+
+body {
+    background-color: #302e2e;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav {
+    background-color: #484848;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 18px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.main-info {
+    width: 30%;
+    background-color: #484848;
+}
+.main-foto {
+    margin-bottom: 60px;
+}
+.main-info-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contacts {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.contacts-item {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contacts-link {
+    font-size: 18px;
+
+}
+.skills {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.skills-items {
+    text-align: center;
+}
+.skills-item {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-image: url(assets/icons/check.svg);
+    background-position: 90px 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 24px;
+}
+.languages {
+    margin-bottom: 30px;
+}
+.languages-items {
+    text-align: center;
+}
+.languages-item {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+.info {
+    width: 70%;
+}
+.title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 46px;
+}
+.subtitle {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 26px;
+    margin-bottom: 60px;
+}
+.about {
+    margin-bottom: 100px;
+    text-align: center;
+    
+}
+.info-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.about-text {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.about-text::after {
+    content: "";
+    position: absolute;
+    display: block;
+    border: 1px solid #000;
+    left: 100px;
+    bottom: -40px;
+    width: 400px;
+}
