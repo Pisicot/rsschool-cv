@@ -143,8 +143,6 @@ body {
     margin-bottom: 10px;
     font-size: 24px;
 }
-
-
 .info {
     width: 70%;
 }
@@ -161,8 +159,7 @@ body {
 }
 .about {
     margin-bottom: 100px;
-    text-align: center;
-    
+    text-align: center; 
 }
 .info-title {
     text-align: center;
@@ -171,9 +168,10 @@ body {
     margin-bottom: 20px;
 }
 .about-text {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
+    font-size: 22px;
 }
 .about-text::after {
     content: "";
@@ -182,5 +180,35 @@ body {
     border: 1px solid #000;
     left: 100px;
     bottom: -40px;
-    width: 400px;
+    width: 600px;
+}
+.experience {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.experience-work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+}
+.experience-work_text {
+    margin-bottom: 10px;
+}
+.experience-work_link {
+    display: block;
+    margin-bottom: 10px;
+}
+.experience-work::after {
+    content: "";
+    position: absolute;
+    display: block;
+    border: 1px solid #000;
+    left: 200px;
+    bottom: -40px;
+    width: 600px;
+}
+.example_inner {
+    color: #fff;
 }
