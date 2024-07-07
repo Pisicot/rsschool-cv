@@ -1,0 +1,256 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a[class] {
+    transition: all .3s;
+}
+a[class]:hover {
+    color: #b9b4b4;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #484848;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 18px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.main-info {
+    width: 30%;
+    background-color: #484848;
+}
+.main-foto {
+    margin-bottom: 60px;
+}
+.main-info-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contacts {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.contacts-item {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.contacts-link {
+    font-size: 18px;
+
+}
+.skills {
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.skills-items {
+    text-align: center;
+}
+.skills-item {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-image: url(assets/icons/check.svg);
+    background-position: 90px 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 24px;
+}
+.languages {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.languages-items {
+    text-align: center;
+}
+.languages-item {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.info {
+    width: 70%;
+}
+.title {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 46px;
+    font-weight: 700;
+}
+.subtitle {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 26px;
+    margin-bottom: 60px;
+    color: coral;
+}
+.about {
+    margin-bottom: 60px;
+    text-align: center; 
+}
+.info-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.example {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    font-size: 22px;
+}
+.pre {
+    padding: 0;
+    margin: 0;
+}
+.example_inner {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.experience {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.experience-work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+}
+.experience-work_title {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: coral;
+}
+.experience-work_link {
+    display: block;
+    margin-bottom: 10px;
+    color: #413e3e;
+}
+.experience-work {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+.education {
+    text-align: center;
+}
+.education_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.education_inner-title {
+    font-size: 26px;
+    color: coral;
+    margin-bottom: 10px;
+}
+.education_inner-texts {
+    font-size: 22px;
+}
+.footer {
+    background-color: #484848;
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+}
+.footer_links-author {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_links-date {
+    margin-bottom: 20px;
+}
+.footer_links-course {
+    display: block;
+    width: 200px;
+    margin-bottom: 20px;
+}
