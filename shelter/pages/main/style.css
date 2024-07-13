@@ -1,65 +1,61 @@
 @font-face {
-    font-family: 'Arial';
+    font-family: "Arial";
     font-weight: 400;
     font-style: normal;
-    src: local('Arial'),
-         url('../../assets/fonts/Arial.woff2') format('woff2'),
-         url('../../assets/fonts/Arial.woff') format('woff');
+    src: local("Arial"),
+         url("../../assets/fonts/Arial.woff2") format("woff2"),
+         url("../../assets/fonts/Arial.woff") format("woff");
     font-display: swap;
 }
 @font-face {
-    font-family: 'Arial-Italic';
+    font-family: "Arial-Italic";
     font-weight: 400;
     font-style: italic;
-    src: local('Arial-Italic'),
-         url('../../assets/fonts/Arial-Italic.woff2') format('woff2'),
-         url('../../assets/fonts/Arial-Italic.woff') format('woff');
+    src: local("Arial-Italic"),
+         url("../../assets/fonts/Arial-Italic.woff2") format("woff2"),
+         url("../../assets/fonts/Arial-Italic.woff") format("woff");
     font-display: swap;
 }
 @font-face {
-    font-family: 'Georgia';
+    font-family: "Georgia";
     font-weight: 400;
     font-style: normal;
-    src: local('Georgia'),
-         url('../../assets/fonts/Georgia.woff2') format('woff2'),
-         url('../../assets/fonts/Georgia.woff') format('woff');
+    src: local("Georgia"),
+         url("../../assets/fonts/Georgia.woff2") format("woff2"),
+         url("../../assets/fonts/Georgia.woff") format("woff");
     font-display: swap;
 }
 @font-face {
-    font-family: 'Georgia-Italic';
+    font-family: "Georgia-Italic";
     font-weight: 400;
     font-style: italic;
-    src: local('Georgia-Italic'),
-         url('../../assets/fonts/Georgia-Italic.woff2') format('woff2'),
-         url('../../assets/fonts/Georgia-Italic.woff') format('woff');
+    src: local("Georgia-Italic"),
+         url("../../assets/fonts/Georgia-Italic.woff2") format("woff2"),
+         url("../../assets/fonts/Georgia-Italic.woff") format("woff");
     font-display: swap;
 }
 @font-face {
-    font-family: 'Georgia-Bold';
+    font-family: "Georgia-Bold";
     font-weight: 700;
     font-style: normal;
-    src: local('Georgia-Bold'),
-         url('../../assets/fonts/Georgia-Bold.woff2') format('woff2'),
-         url('../../assets/fonts/Georgia-Bold.woff') format('woff');
+    src: local("Georgia-Bold"),
+         url("../../assets/fonts/Georgia-Bold.woff2") format("woff2"),
+         url("../../assets/fonts/Georgia-Bold.woff") format("woff");
     font-display: swap;
 }
-
-html{
+html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
-  
+}
 *,
 *::after,
 *::before{
      box-sizing: inherit;
 }
-
 ul[class],
 ol[class] {
     padding: 0;
 }
-
 body,
 h1,
 h2,
@@ -78,43 +74,37 @@ dl,
 dd {
      margin: 0;
 }
-
 ul[class] {
     list-style: none;
 }
-
 img {
     max-width: 100%;
     display: block;
 }
-
 input,
 button,
 textarea,
 select {
     font: inherit;
 }
-
 a {
     text-decoration: none;
 }
-
 body {
     min-height: 100vh;
-    font-family: 'Georgia';
+    font-family: "Georgia";
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
     line-height: 160%;
     color: #4c4c4c;
 }
-
 .container {
-     max-width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .header {
-    background-image: url('../../assets/images/background.jpg');
+    background-image: url("../../assets/images/background.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -134,7 +124,7 @@ body {
     margin-left: 35px;
 }
 .menu__list-link {
-    font-family: 'Arial';
+    font-family: "Arial";
     color: #fafafa;
     transition: all .3s;
 }
@@ -142,30 +132,28 @@ body {
     padding-bottom: 3px;
     border-bottom: 3px solid #f1cdb3;
 }
-.header__content-inner {
+.not_only-inner {
     display: flex;
     justify-content: space-between;
     padding: 0px 40px;
-
 }
-
-.header__info {
+.not_only__info {
     max-width: 460px;
     padding-top: 163px;
 }
-.header__title {
+.not_only__title {
     font-size: 44px;
     line-height: 130%;
     color: #fff;
     margin-bottom: 42px;
     max-width: 400px;
 }
-.header__text {
-    font-family: 'Arial';
+.not_only__text {
+    font-family: "Arial";
     color: #cdcdcd;
     margin-bottom: 57px;
 }
-.header__button {
+.not_only__button {
     border-radius: 100px;
     padding: 15px 45px;
     width: 207px;
@@ -177,6 +165,35 @@ body {
     color: #292929;
     transition: all .3s;
 }
-.header__button:hover {
+.not_only__button:hover {
     background-color: #fddcc4;
+}
+.about-inner {
+    display: flex;
+    padding: 80px 40px 100px;
+}
+.about-img {
+    padding-left: 175px;
+}
+.about__info {
+    max-width: 430px;
+    margin: 14px 175px 14px 120px;
+}
+.about__title {
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+.about__text {
+    font-family: "Arial";
+    color: #545454;
+}
+.about__text + .about__text {
+    margin-top: 25px;
+}
+.text-shodow {
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
