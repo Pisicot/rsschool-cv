@@ -3,8 +3,8 @@
     font-weight: 400;
     font-style: normal;
     src: local("Arial"),
-         url("../../assets/fonts/Arial.woff2") format("woff2"),
-         url("../../assets/fonts/Arial.woff") format("woff");
+         url("../assets/fonts/Arial.woff2") format("woff2"),
+         url("../assets/fonts/Arial.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -12,8 +12,8 @@
     font-weight: 400;
     font-style: italic;
     src: local("Arial-Italic"),
-         url("../../assets/fonts/Arial-Italic.woff2") format("woff2"),
-         url("../../assets/fonts/Arial-Italic.woff") format("woff");
+         url("../assets/fonts/Arial-Italic.woff2") format("woff2"),
+         url("../assets/fonts/Arial-Italic.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -21,8 +21,8 @@
     font-weight: 400;
     font-style: normal;
     src: local("Georgia"),
-         url("../../assets/fonts/Georgia.woff2") format("woff2"),
-         url("../../assets/fonts/Georgia.woff") format("woff");
+         url("../assets/fonts/Georgia.woff2") format("woff2"),
+         url("../assets/fonts/Georgia.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -30,8 +30,8 @@
     font-weight: 400;
     font-style: italic;
     src: local("Georgia-Italic"),
-         url("../../assets/fonts/Georgia-Italic.woff2") format("woff2"),
-         url("../../assets/fonts/Georgia-Italic.woff") format("woff");
+         url("../assets/fonts/Georgia-Italic.woff2") format("woff2"),
+         url("../assets/fonts/Georgia-Italic.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -39,8 +39,8 @@
     font-weight: 700;
     font-style: normal;
     src: local("Georgia-Bold"),
-         url("../../assets/fonts/Georgia-Bold.woff2") format("woff2"),
-         url("../../assets/fonts/Georgia-Bold.woff") format("woff");
+         url("../assets/fonts/Georgia-Bold.woff2") format("woff2"),
+         url("../assets/fonts/Georgia-Bold.woff") format("woff");
     font-display: swap;
 }
 html {
@@ -151,6 +151,10 @@ h3 {
     padding-bottom: 3px;
     border-bottom: 3px solid #f1cdb3;
 }
+.active:hover {
+    color: #292929;
+    cursor: default;
+}
 .our_friends {
     background: #f6f6f6;
 }
@@ -250,7 +254,7 @@ h3 {
     color: #292929;
 }
 .footer {
-    background-image: url("../../assets/images/footer-background.jpg");
+    background-image: url("../assets/images/footer-background.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -299,14 +303,14 @@ h3 {
     margin-bottom: 32px;
 }
 .email::before {
-    background-image: url("../../assets/icons/email.svg");
+    background-image: url("../assets/icons/email.svg");
 }
 .tel::before {
-    background-image: url("../../assets/icons/phone.svg");
+    background-image: url("../assets/icons/phone.svg");
 }
 .adress::before {
     width: 22px;
-    background-image: url("../../assets/icons/marker.svg");
+    background-image: url("../assets/icons/marker.svg");
 }
 .footer__link {
     font-weight: 400;

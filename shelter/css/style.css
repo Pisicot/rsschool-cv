@@ -3,8 +3,8 @@
     font-weight: 400;
     font-style: normal;
     src: local("Arial"),
-         url("../../assets/fonts/Arial.woff2") format("woff2"),
-         url("../../assets/fonts/Arial.woff") format("woff");
+         url("../assets/fonts/Arial.woff2") format("woff2"),
+         url("../assets/fonts/Arial.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -12,8 +12,8 @@
     font-weight: 400;
     font-style: italic;
     src: local("Arial-Italic"),
-         url("../../assets/fonts/Arial-Italic.woff2") format("woff2"),
-         url("../../assets/fonts/Arial-Italic.woff") format("woff");
+         url("../assets/fonts/Arial-Italic.woff2") format("woff2"),
+         url("../assets/fonts/Arial-Italic.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -21,8 +21,8 @@
     font-weight: 400;
     font-style: normal;
     src: local("Georgia"),
-         url("../../assets/fonts/Georgia.woff2") format("woff2"),
-         url("../../assets/fonts/Georgia.woff") format("woff");
+         url("../assets/fonts/Georgia.woff2") format("woff2"),
+         url("../assets/fonts/Georgia.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -30,8 +30,8 @@
     font-weight: 400;
     font-style: italic;
     src: local("Georgia-Italic"),
-         url("../../assets/fonts/Georgia-Italic.woff2") format("woff2"),
-         url("../../assets/fonts/Georgia-Italic.woff") format("woff");
+         url("../assets/fonts/Georgia-Italic.woff2") format("woff2"),
+         url("../assets/fonts/Georgia-Italic.woff") format("woff");
     font-display: swap;
 }
 @font-face {
@@ -39,8 +39,8 @@
     font-weight: 700;
     font-style: normal;
     src: local("Georgia-Bold"),
-         url("../../assets/fonts/Georgia-Bold.woff2") format("woff2"),
-         url("../../assets/fonts/Georgia-Bold.woff") format("woff");
+         url("../assets/fonts/Georgia-Bold.woff2") format("woff2"),
+         url("../assets/fonts/Georgia-Bold.woff") format("woff");
     font-display: swap;
 }
 html {
@@ -111,11 +111,11 @@ h3 {
     margin: 0 auto;
 }
 .header {
-    background-image: url("../../assets/images/background.jpg");
+    background-image: url("../assets/images/background.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    background: radial-gradient(237.5% 111.8% at 0% 0%, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 100%), url("../../assets/images/gradient-background.jpg");
+    background: radial-gradient(237.5% 111.8% at 0% 0%, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 100%), url("../assets/images/gradient-background.jpg");
 }
 .title {
     font-weight: 400;
@@ -156,6 +156,10 @@ h3 {
     padding-bottom: 3px;
     border-bottom: 3px solid #f1cdb3;
 }
+.active:hover {
+    color: #cdcdcd;
+    cursor: default;
+} 
 .not_only-inner {
     display: flex;
     justify-content: space-between;
@@ -341,31 +345,31 @@ h3 {
     left: 70px;
 }
 .help__item--food::before {
-    background-image: url("../../assets/icons/1.svg");
+    background-image: url("../assets/icons/1.svg");
 }
 .help__item--trans::before {
-    background-image: url("../../assets/icons/2.svg");
+    background-image: url("../assets/icons/2.svg");
 }
 .help__item--toys::before {
-    background-image: url("../../assets/icons/3.svg");
+    background-image: url("../assets/icons/3.svg");
 }
 .help__item--bowls::before {
-    background-image: url("../../assets/icons/4.svg");
+    background-image: url("../assets/icons/4.svg");
 }
 .help__item--shamp::before {
-    background-image: url("../../assets/icons/5.svg");
+    background-image: url("../assets/icons/5.svg");
 }
 .help__item--vitam::before {
-    background-image: url("../../assets/icons/6.svg");
+    background-image: url("../assets/icons/6.svg");
 }
 .help__item--med::before {
-    background-image: url("../../assets/icons/7.svg");
+    background-image: url("../assets/icons/7.svg");
 }
 .help__item--col::before {
-    background-image: url("../../assets/icons/8.svg");
+    background-image: url("../assets/icons/8.svg");
 }
 .help__item--sleep::before {
-    background-image: url("../../assets/icons/9.svg");
+    background-image: url("../assets/icons/9.svg");
 }
 .in_addition {
     background: #f6f6f6;
@@ -416,7 +420,7 @@ h3 {
     height: 23px;
     top: 10px;
     left: 15px;
-    background-image: url("../../assets/icons/credit-card.svg");
+    background-image: url("../assets/icons/credit-card.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -429,7 +433,7 @@ h3 {
     color: #b2b2b2;
 }
 .footer {
-    background-image: url("../../assets/images/footer-background.jpg");
+    background-image: url("../assets/images/footer-background.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -478,14 +482,14 @@ h3 {
     margin-bottom: 32px;
 }
 .email::before {
-    background-image: url("../../assets/icons/email.svg");
+    background-image: url("../assets/icons/email.svg");
 }
 .tel::before {
-    background-image: url("../../assets/icons/phone.svg");
+    background-image: url("../assets/icons/phone.svg");
 }
 .adress::before {
     width: 22px;
-    background-image: url("../../assets/icons/marker.svg");
+    background-image: url("../assets/icons/marker.svg");
 }
 .footer__link {
     font-weight: 400;
