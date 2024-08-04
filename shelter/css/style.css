@@ -111,11 +111,8 @@ h3 {
     margin: 0 auto;
 }
 .header {
-    background-image: url("../assets/images/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    background: radial-gradient(237.5% 111.8% at 0% 0%, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 100%), url("../assets/images/gradient-background.jpg");
+    background: url("../assets/images/noise_transparent@2x.png") repeat, radial-gradient(237.5% 111.8% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+    
 }
 .title {
     font-weight: 400;
@@ -264,6 +261,7 @@ h3 {
     height: 435px;
     background: #fafafa;
     transition: all .3s;
+    cursor: pointer;
 }
 .our_friends__item:hover {
     box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);

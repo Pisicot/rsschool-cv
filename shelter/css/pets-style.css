@@ -180,6 +180,7 @@ h3 {
     background: #fafafa;
     margin-bottom: 30px;
     transition: all .3s;
+    cursor: pointer;
 }
 .our_friends__item:hover {
     box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
@@ -243,6 +244,11 @@ h3 {
 }
 .our_friends__button + .our_friends__button {
     margin-left: 20px;
+}
+.disabled-btn:hover {
+    background-color: #f6f6f6;
+    border: 2px solid #cdcdcd;
+    cursor: default; 
 }
 .active-btn {
     border: 2px solid #f1cdb3;
