@@ -112,7 +112,6 @@ h3 {
 }
 .header {
     background: url("../assets/images/noise_transparent@2x.png") repeat, radial-gradient(237.5% 111.8% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
-    
 }
 .title {
     font-weight: 400;
@@ -172,6 +171,8 @@ h3 {
     color: #fff;
     margin-bottom: 42px;
     max-width: 400px;
+    width: 100%;
+    font-family: var(--font-family);
 }
 .not_only__text {
     font-family: "Arial";
@@ -181,8 +182,6 @@ h3 {
 .not_only__button {
     border-radius: 100px;
     padding: 15px 45px;
-    width: 207px;
-    height: 52px;
     background-color: #f1cdb3;
     font-size: 17px;
     line-height: 130%;
@@ -192,6 +191,9 @@ h3 {
 }
 .not_only__button:hover {
     background-color: #fddcc4;
+}
+img.img {
+    width: 100%;
 }
 .about-inner {
     display: flex;
@@ -495,4 +497,68 @@ h3 {
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #f1cdb3;
+}
+@media (max-width: 1024px) {
+    .not_only__info {
+        padding-top: 58px;
+    }
+}
+@media (max-width: 768px) {
+    .header__top-inner {
+        justify-content:unset;
+        column-gap: 78px;
+        padding: 30px 0px 0px 30px;
+    }
+    .menu__list {
+        column-gap: 36px;
+    }
+    .subtitle {
+        padding: 5px 0 0 5px;
+    }
+    .menu__list-item + .menu__list-item {
+        margin-left: 0;
+    }
+    .header__top-inner {  
+        margin-bottom: 0;
+    }
+    .not_only-inner {
+        margin-left: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .not_only__info {
+        margin-bottom: 112px;
+    }
+    .not_only-img {
+        display: flex;
+        align-items: end;
+    }
+    img.img {
+        max-width: 569px;
+        margin-left: 115px;
+    }
+    .not_only__button {
+        margin-left: 126px;
+    }
+}
+@media (max-width: 425px) {
+    .menu {
+        display: none;
+    }
+    .not_only-inner {
+        padding: 0;
+    }
+    .not_only__title {
+        font-size: 25px;
+        text-align: center;
+    }   
+    .not_only__text {
+        font-size: 15px;
+    }
+    .not_only__button {
+        margin-left: 0;
+    }
+    img.img {
+        margin-left: 0;
+    }
 }
