@@ -387,7 +387,6 @@ img.img {
 }
 .in_addition__img {
     max-width: 505px;
-    height: 261px;
 }
 .in_addition__info {
     max-width: 380px;
@@ -412,7 +411,7 @@ img.img {
     letter-spacing: 0.06em;
     border-radius: 9px;
     padding: 10px 10px 10px 60px;
-    width: 349px;
+    max-width: 349px;
     height: 43px;
     background: #f1cdb3;
     position: relative;
@@ -541,6 +540,15 @@ img.img {
     .our_friends__item:nth-child(3) {
         display: none;
     }
+    .in_addition-inner {
+        flex-direction: column-reverse;
+    }
+    .in_addition__info {
+        margin-left: 0;
+    }
+    .in_addition__text {
+        margin-bottom: 60px;
+    }
 }
 @media (max-width: 768px) {
     .header__top-inner {
@@ -658,7 +666,7 @@ img.img {
         margin: 20px auto 0;
     }
     .help-inner {
-        margin: 0 15px;
+        margin: 0 15px 50px;
     }
     .help__list {
         justify-content: unset;
@@ -679,13 +687,35 @@ img.img {
         margin: 0;
     }
     .help__item::before {
-        content: "";
-        position: absolute;
-        background-size: contain;
-        background-repeat: no-repeat;
         width: 50px;
         height: 50px;
         top: 10px;
         left: 40px;
+    }
+    .in_addition-inner {
+        padding-top: 43px;
+    }
+    .in_addition__info {
+        margin: 0 20px;
+    }
+    .in_addition__subtitle {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        letter-spacing: normal;
+        margin: 0 0 20px 2px;
+    }
+    .in_addition__card-number {
+        font-size: 15px;
+        line-height: 110%;
+        padding: 13px 10px 13px 60px;
+    }
+    .in_addition__text {
+        font-size: 12px;
+        text-align: justify;
+        margin-bottom: 42px;
+    }
+    .in_addition__img {
+        max-width: 260px;
     }
 }
